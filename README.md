@@ -8,7 +8,7 @@
 An intelligent web application that predicts cardiovascular disease risk using machine learning. Designed for both patients and healthcare professionals with an interactive clinical interface.
 
 <div align="center">
-  <img src="screenshots/app-preview.png" width="800" alt="App Interface">
+  <img src="Screenshot 2025-05-10 211208.png" width="800" alt="App Interface">
 </div>
 
 ## 🌟 Features
