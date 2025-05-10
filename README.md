@@ -26,13 +26,13 @@ An intelligent web application that predicts cardiovascular disease risk using m
 
 ## 🚀 Try the Live Demo
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_red-white.svg)](https://cardiosafeai.streamlit.app)
+[![Open in Streamlit](https://cardiosafe-ai-heart-disease-risk-predictor-app-ankit-parwatkar.streamlit.app/)]
 
 ## 📥 Installation
 
 1. Clone repository:
    ```bash
-   git clone https://github.com/ankitparwatkar/CardioSafe-AI.git
+   git clone https://github.com/ankitparwatkar/CardioSafe-AI-Heart-Disease-Risk-Predictor-App.git
    cd CardioSafe-AI
    ```
 
@@ -56,7 +56,7 @@ An intelligent web application that predicts cardiovascular disease risk using m
 | ST Depression | Exercise-induced measurement | 0-6.2 |
 | Max Heart Rate | Achieved during test | 70-220 |
 
-**Target Variable**: Binary classification (0 = Low Risk, 1 = High Risk)
+**Target Variable**: Risk Percentage %
 
 ## 🧠 Machine Learning Model
 
