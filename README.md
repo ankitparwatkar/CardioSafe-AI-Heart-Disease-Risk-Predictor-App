@@ -68,8 +68,8 @@ An intelligent web application that predicts cardiovascular disease risk using m
 ## 📸 Application Highlights
 
 <div align="center">
-  <img src="screenshots/input-section.png" width="400" alt="Input Section">
-  <img src="screenshots/results-view.png" width="400" alt="Results View">
+  <img src="Screenshot 2025-05-10 211314.png" width="400" alt="Input Section">
+  <img src="Screenshot 2025-05-10 211346.png" width="400" alt="Results View">
 </div>
 
 ## 🛠️ Technical Stack
