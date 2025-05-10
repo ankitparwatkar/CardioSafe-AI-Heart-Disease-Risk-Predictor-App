@@ -60,7 +60,7 @@ An intelligent web application that predicts cardiovascular disease risk using m
 
 ## 🧠 Machine Learning Model
 
-- **Algorithm**: XGBoost Classifier (Pre-trained)
+- **Algorithm**: Random Forest Classifier (Pre-trained)
 - **Accuracy**: 92.4% on test set
 - **Features**: 11 clinical parameters
 - **Output**: Risk probability with interpretable results
