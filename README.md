@@ -97,20 +97,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⚠️ Clinical Disclaimer**: This tool provides risk estimations and should not replace professional medical advice. Always consult a qualified healthcare provider for diagnosis and treatment.
 ```
-
-> **Note**: For actual use:
-> 1. Add screenshots in `/screenshots` folder
-> 2. Update Streamlit deployment URL
-> 3. Include actual model performance metrics
-> 4. Add LICENSE file
-> 5. Create `requirements.txt` with dependencies
-
-This README features:
-- Responsive badges and banners
-- Clear installation instructions
-- Visual documentation
-- Clinical disclaimer
-- Social proof elements
-- Mobile-responsive design
-- Technical specifications
-- Developer contact information
