@@ -2,7 +2,7 @@
 ```markdown
 # ❤️ CardioSafe AI - Heart Disease Risk Prediction System
 
-[![Streamlit App](https://cardiosafe-ai-heart-disease-risk-predictor-app-ankit-parwatkar.streamlit.app/)](https://cardiosafeai.streamlit.app)
+![Streamlit App](https://cardiosafe-ai-heart-disease-risk-predictor-app-ankit-parwatkar.streamlit.app/)
 ![GitHub last commit](https://github.com/ankitparwatkar/CardioSafe-AI-Heart-Disease-Risk-Predictor-App)
 
 An intelligent web application that predicts cardiovascular disease risk using machine learning. Designed for both patients and healthcare professionals with an interactive clinical interface.
