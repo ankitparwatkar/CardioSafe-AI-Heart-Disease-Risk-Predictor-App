@@ -88,9 +88,6 @@ An intelligent web application that predicts cardiovascular disease risk using m
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://linkedin.com/in/ankitparwatkar)
 [![Email](https://img.shields.io/badge/Contact-Email-red?logo=gmail)](mailto:ankitparwatkar35@gmail.com)
 
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
