@@ -1,0 +1,182 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+:root {
+  --primary-gradient: linear-gradient(135deg, #2a2a72 0%, #009ffd 100%);
+  --accent-color: #ffd700;
+  --deep-navy: #0a192f;
+  --crystal-blue: #00b4d8;
+}
+
+html, body, [class*="css"] {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    background: var(--deep-navy);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Dynamic background animation */
+body::before {
+    content: '';
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    background: var(--primary-gradient);
+    opacity: 0.1;
+    z-index: -2;
+    animation: grain 8s steps(10) infinite;
+}
+
+@keyframes grain {
+  0%, 100% { transform: translate(0, 0) }
+  10% { transform: translate(-5%, -10%) }
+  20% { transform: translate(-15%, 5%) }
+  30% { transform: translate(7%, -25%) }
+  40% { transform: translate(-5%, 25%) }
+  50% { transform: translate(-15%, 10%) }
+  60% { transform: translate(15%, 0%) }
+  70% { transform: translate(0%, 15%) }
+  80% { transform: translate(3%, 35%) }
+  90% { transform: translate(-10%, 10%) }
+}
+
+/* Particle adjustments */
+#particles-js {
+    opacity: 0.15;
+    z-index: -1;
+}
+
+.main-header {
+    text-align: center;
+    padding: 3rem 0;
+    background: rgba(10, 25, 47, 0.9);
+    border-radius: 20px;
+    margin: 3rem auto;
+    width: 90%;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 215, 0, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 180, 216, 0.1);
+}
+
+.main-header h1 {
+    font-size: 4rem;
+    background: linear-gradient(45deg, #ffd700, #00b4d8);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 4px 15px rgba(0, 180, 216, 0.3);
+}
+
+.result-card {
+    background: linear-gradient(145deg, rgba(10, 25, 47, 0.9), rgba(42, 42, 114, 0.7));
+    backdrop-filter: blur(12px);
+    border-radius: 15px;
+    padding: 2.5rem;
+    margin: 2rem 0;
+    border: 1px solid rgba(255, 215, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.result-card:hover {
+    transform: translateY(-5px);
+}
+
+.high-risk { 
+    border-left: 4px solid #ff4d4d;
+    box-shadow: 4px 0 15px rgba(255, 77, 77, 0.3);
+}
+
+.low-risk { 
+    border-left: 4px solid #00b4d8;
+    box-shadow: 4px 0 15px rgba(0, 180, 216, 0.3);
+}
+
+.progress-bar {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    height: 20px;
+    margin: 1.5rem 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress-fill {
+    background: linear-gradient(90deg, #ffd700, #00b4d8);
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+    transition: width 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.progress-fill::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.2),
+        transparent
+    );
+    animation: shine 2s infinite;
+}
+
+@keyframes shine {
+    100% { left: 200% }
+}
+
+.stSelectbox, .stSlider, .stNumberInput {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 215, 0, 0.2) !important;
+    border-radius: 8px !important;
+    padding: 1rem !important;
+    transition: all 0.3s ease !important;
+}
+
+.stSelectbox:hover, .stSlider:hover, .stNumberInput:hover {
+    border-color: var(--accent-color) !important;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.2) !important;
+}
+
+button[type="submit"] {
+    background: linear-gradient(45deg, #ffd700, #00b4d8) !important;
+    border: none !important;
+    color: var(--deep-navy) !important;
+    font-weight: 700 !important;
+    padding: 1rem 2rem !important;
+    border-radius: 10px !important;
+    transition: all 0.3s ease !important;
+}
+
+button[type="submit"]:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 180, 216, 0.4) !important;
+}
+
+.footer {
+    border-top: 1px solid rgba(255, 215, 0, 0.1);
+    background: rgba(10, 25, 47, 0.8);
+    backdrop-filter: blur(12px);
+    padding: 2rem 0;
+    margin-top: 4rem;
+}
+
+.social-links a {
+    color: var(--accent-color) !important;
+    margin: 0 1.5rem;
+    font-size: 1.8rem;
+    transition: all 0.3s ease;
+    text-shadow: 0 2px 8px rgba(255, 215, 0, 0.3);
+}
+
+.social-links a:hover {
+    color: #00b4d8 !important;
+    transform: translateY(-3px);
+}
